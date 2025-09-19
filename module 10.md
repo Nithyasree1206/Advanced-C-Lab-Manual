@@ -1,6 +1,6 @@
 # Advanced-C-Lab-Manual
 
-# MODULE - 010
+# MODULE - 10
 ```
 Name: S. NITHYASREE
 Regno: 212224040225
