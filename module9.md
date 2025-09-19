@@ -1,6 +1,13 @@
-EXP NO:3A C PROGRAM TO DISPLAY STACK ELEMENTS USING AN ARRAY.
+# Advanced-C-Lab-Manual
 
-Aim:
+# MODULE - 07
+```
+Name: S. NITHYASREE
+Regno: 212224040225
+```
+# EXP NO:3A C PROGRAM TO DISPLAY STACK ELEMENTS USING AN ARRAY.
+
+# Aim:
 To write a C program to display stack elements using an array.
 Algorithm:
 1.	Include Necessary Header Files
@@ -11,7 +18,7 @@ Algorithm:
 6.	Perform stack operations (push, pop, etc.).
 7.	Use the display function to visualize the stack's contents
  
-Program:
+# Program:
 
 ```
 int stack[40],top,i;
@@ -24,7 +31,7 @@ printf("%d\n",stack[i]);
 }
 ```
 
-Output:
+# Output:
 
 ![image](https://github.com/user-attachments/assets/3bf9c732-a495-4579-a4fc-ef2e35c2936c)
 
@@ -32,8 +39,8 @@ Result:
 Thus, the program to display stack elements using an array is verified successfully.
  
 
-EXP NO:3B  PROGRAM TO PUSH THE GIVEN ELEMENT IN TO A STACK USING ARRAY.
-Aim:
+# EXP NO:3B  PROGRAM TO PUSH THE GIVEN ELEMENT IN TO A STACK USING ARRAY.
+# Aim:
 To create a C program to push the given element in to a stack using array.
 Algorithm:
 1.	Declare global variables for the stack size, top index, and the stack itself.
@@ -41,7 +48,7 @@ Algorithm:
 3.	Initialize the stack size, top index, and the stack itself.
 4.	Call the push function as needed.
  
-Program:
+# Program:
 
 ```
 int size=3,top=1;
@@ -62,26 +69,26 @@ void push (float data)
 }
 ```
 
-Output:
+# Output:
 
 ![image](https://github.com/user-attachments/assets/0542e175-2e6b-46b9-b4d0-92a22a0e6921)
 
-Result:
+# Result:
 Thus, the program to push the given element in to a stack using array is verified successfully
 
 
  
-EXP NO:3C C PROGRAM TO DISPLAY QUEUE ELEMENTS USING ARRAY.
-Aim:
+# EXP NO:3C C PROGRAM TO DISPLAY QUEUE ELEMENTS USING ARRAY.
+# Aim:
 To write a C program to display queue elements using array
 
-Algorithm:
+# Algorithm:
 1.	Declare global variables for the queue, rear, front, and iteration.
 2.	Define the display function to print the elements of the queue.
 3.	Initialize the queue, rear, and front as needed.
 4.	Call the display function and perform other queue operations as needed.
  
-Program:
+# Program:
 
 ```
 int queue[50], rear, front,i;
@@ -104,26 +111,26 @@ void display()
 }
 ```
 
-Output:
+# Output:
 
 ![image](https://github.com/user-attachments/assets/49447fc1-3746-41e1-8196-6b17dc2c6baf)
 
-Result:
+# Result:
 Thus, the program to display queue elements using array is verified successfully.
 
 
  
-EXP NO:3D C PROGRAM TO INSERT ELEMENTS IN QUEUE USING ARRAY.
-Aim:
+# EXP NO:3D C PROGRAM TO INSERT ELEMENTS IN QUEUE USING ARRAY.
+# Aim:
 To write a C program to insert elements in queue using array.
 
-Algorithm:
+# Algorithm:
 1.	Declare global variables for the size, rear, front, and the queue itself.
 2.	Define the enqueue function to add a float to the queue.
 3.	Initialize the rear, front, and size of the queue as needed.
 4.	Call the enqueue function as needed.
 
-Program:
+# Program:
 
 ```
 int size=4, rear=-1, front=-1; 
@@ -143,25 +150,25 @@ void enqueue(float data)
 }
 ```
 
-Output:
+# Output:
 
 ![image](https://github.com/user-attachments/assets/025b8f7d-22cb-4fc2-8ca8-c2b28669678f)
 
-Result:
+# Result:
 Thus, the program to insert elements in queue using array is verified successfully.
 
 
 
  
-EXP NO:3E C FUNCTION TO DELETE ELEMENTS IN QUEUE USING ARRAY
+# EXP NO:3E C FUNCTION TO DELETE ELEMENTS IN QUEUE USING ARRAY
 
 
 
-Aim:
+# Aim:
 
 To create a function in C that deletes an element from a queue implemented using an array.
 
-Algorithm:
+# Algorithm:
 
 1.	Check if the Queue is Empty
 o	If the front pointer is -1, it means the queue is empty, and there are no elements to delete. Print a message indicating that the queue is empty.
@@ -174,7 +181,7 @@ o	After deletion, check if the front pointer has passed the rear pointer (front 
 
 
 
-Program:
+# Program:
 
 ```
 int front, rear;
@@ -190,9 +197,9 @@ void dequeue()
 }
 ```
 
-Output:
+# Output:
 
 ![image](https://github.com/user-attachments/assets/646f51c1-d5dd-49c2-a13c-fdf8de5c89bd)
 
-Result:
+# Result:
 Thus, the function that deletes an element from a queue implemented using an array is verified successfully.
